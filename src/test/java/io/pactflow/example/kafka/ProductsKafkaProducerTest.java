@@ -26,7 +26,7 @@ import org.springframework.messaging.Message;
 
 @Provider("pactflow-example-provider-java-kafka")
 @AllowOverridePactUrl
-@PactBroker(scheme = "https", host = "https://charnley-test-29ff.pactflow.io", authentication = @PactBrokerAuth(token = "${{ secrets.PACTFLOW_TOKEN_FOR_CI_CD_WORKSHOP }}"))
+@PactBroker(scheme = "https", host = "https://charnley-test-29ff.pactflow.io", authentication = @PactBrokerAuth(token = "W8rSJpBjSb1Auq9Ka8PbtA"))
 public class ProductsKafkaProducerTest {
   private static final Logger LOGGER = LoggerFactory.getLogger(ProductsKafkaProducerTest.class);
 
